@@ -14,4 +14,9 @@ space : 480k
 description : 判断一个二叉树是否是另一个二叉树的子树  
 idea : 和书上略有不同，关键是判断空指针情况，以及递归调用在哪返回  
 
+## Offer No.17
+### print 1 to max of digits
+description : 打印1到最大的n位   
+idea : 递归，注意按顺序打印，递归时index取值从0开始到n   
+
 
