@@ -8,5 +8,8 @@ has_subtree:has_subtree.cpp
 	g++ -std=c++11 -g -o case_has_subtree has_subtree.cpp
 print1tomax:print1tomax.cpp
 	g++ -std=c++11 -g -o case_print1tomax print1tomax.cpp
+complex_list_clone:complex_list_clone.cpp
+	g++ -std=c++11 -g -o case_complex_list_clone complex_list_clone.cpp 
+
 clean:
 	rm case*  *~

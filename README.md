@@ -19,4 +19,9 @@ idea : 和书上略有不同，关键是判断空指针情况，以及递归调�
 description : 打印1到最大的n位   
 idea : 递归，注意按顺序打印，递归时index取值从0开始到n   
 
+## Offer No.35
+### complex list clone
+description :复杂 链表有个random指针指向任意节点，复制复杂链表  
+idea : 合并复制；遍历链接random节点；取偶数节点  
+
 
