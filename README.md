@@ -24,4 +24,13 @@ idea : 递归，注意按顺序打印，递归时index取值从0开始到n
 description :复杂 链表有个random指针指向任意节点，复制复杂链表  
 idea : 合并复制；遍历链接random节点；取偶数节点  
 
+## No.41
+### next permutation
+description : 给一个数组，返回其全排列中更大的一种排列 (next greater)；若没有，则返回最小的排列  
+idea : 从后往前找到第一个不是降序的，为index，得到其从后往前的upper_bound，交换，再对index之后的元素逆序  
+problem ：在主机上运行没有错，在leetcode上报错   
+
+> double free or corruption (out): 0x0000000002254e70 ***  
+
+
 

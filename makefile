@@ -10,6 +10,8 @@ print1tomax:print1tomax.cpp
 	g++ -std=c++11 -g -o case_print1tomax print1tomax.cpp
 complex_list_clone:complex_list_clone.cpp
 	g++ -std=c++11 -g -o case_complex_list_clone complex_list_clone.cpp 
+next_permutation:next_permutation.cpp
+	g++ -std=c++11 -g -o case_next_permutation next_permutation.cpp 
 
 clean:
 	rm case*  *~
